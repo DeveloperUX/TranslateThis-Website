@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title> HomeWork 7 </title>
+    <LINK type="text/css" rel="stylesheet" href="style.css">
+    <script src="process.js" type="text/javascript"></script>    
+	<script src="suggest.js" type="text/javascript"></script>    
+	<meta content="text/html; charset=windows-1256" http-equiv=Content-Type>
+
+  </head>
+	
+  <body onload="load()">
+  
+    <div id="header" style="text-align: right">
+		<a href="style.css">Stylesheet</a> - 
+		<a href="process.js">JavaScript</a> -
+		<a href="words.xml">XML</a>
+	</div>
+
+		  	<div id="content_area">
+				<p> 
+					Welcome to the Translate This! homepage.  Here you are given a word in 
+					<i>Arabic</i> and you have to insert the correct translation of that 
+					word in <i>English</i> Thus far the foreign language being used is arabic.
+				</p>
+				<br>
+				<div id="inputArea">
+					<p>Translate: <i id="givenWord"></i> </p>
+
+					<input type="text" size="18" value="type here..." id="textfield" onkeyup="keyUp(event,this.value)" onfocus="clearbox('textfield')">
+					<br />
+					<input type="button" value="Check" id="checkButton" onclick="checkThis()">
+					<input type="button" value="Finish" id="finishButton" onclick="finish()">
+
+					<p id="errorMessage"></p>
+				</div>
+
+			</div>
+			<div id="bottom_pane"></div>
+			<div id="footer">
+				<i>Created by: <b>Moustafa Ismael</b> - Copyright &copy; Mason Scheduler</i>   
+			</div>
+
+		</div>
+	</body>
+</html>

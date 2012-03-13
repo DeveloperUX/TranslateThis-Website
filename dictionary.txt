@@ -1,0 +1,7 @@
+kitab	book
+shajara	tree
+tuffah	apple
+rajul	man
+imraa	women
+sultan	authority
+nasr	support

@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0 auto;
+	color: #381907;
+}
+body {
+	margin: 100 auto;
+	background-color: #0A61CC;
+	width: 680;
+	height: auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+	color: #CCC;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
+}
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#givenWord {
+	padding-left: 16px;
+	font-size: 22px;
+	font-style: normal;
+	color: Wheat;
+}
+
+img {
+	width: 20;
+	height: 20;
+}
+
+
+#header {
+	background-image: url(images/header.png);
+	width: 680;
+	height: 59;
+	float: left;
+}
+
+#content_area {
+	background-image: url(images/content_area.png);
+	background-repeat: repeat-y;
+	width: 550;
+	height: auto;
+	float: left;
+	
+	padding-left: 50;
+	padding-right: 80;
+}
+
+#inputArea {
+	width: 220px;
+	float: left;
+	line-height: 2em;
+	padding-left: 5px;
+}
+
+#bottom_pane {
+	background-image: url(images/bottom_pane.png);
+	width: 680;
+	height: 32;
+	float: left;
+}
+
+#footer {
+	background-image: url(images/footer.png);
+	background-repeat: no-repeat;
+	width: 680;
+	height: 45;
+	float: left;
+	
+	font-size: 12px;
+	padding-top: 15;
+	padding-left: 150;
+}

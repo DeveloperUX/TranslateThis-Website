@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1256"?>
+
+<!DOCTYPE collection [
+	<!ELEMENT collection (item)>
+	<!ELEMENT item (english, arabic)>
+	<!ELEMENT english (#PCDATA)>
+	<!ELEMENT arabic (#PCDATA)>
+	]
+>
+
+<collection>
+	<item>
+		<english>Word</english>
+		<arabic>كلمة</arabic>
+	</item>
+	<item>
+		<english>Book</english>
+		<arabic>كتب</arabic>
+	</item>
+	<item>
+		<english>School</english>
+		<arabic>مدرسة</arabic>
+	</item>
+	<item>
+		<english>Scholar</english>
+		<arabic>عالم</arabic>
+	</item>
+	<item>
+		<english>Paradise</english>
+		<arabic>جنة</arabic>
+	</item>
+	<item>
+		<english>Fire</english>
+		<arabic>نار</arabic>
+	</item>
+</collection>
